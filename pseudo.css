@@ -1,0 +1,40 @@
+.boton {
+    width: 10rem;
+    border: 2px solid;
+    padding: 2rem;
+    border-radius: 2rem;
+}
+
+div.boton:hover {
+    color:blue;
+}
+
+section.parte1 p::first-letter {
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+section.parte1 p::first-line {
+    color: blueviolet;
+}
+
+section.parte1 blockquote {
+    quotes: '\00AB' '\00BB' '\201E' '\201C';
+}
+
+section.parte1 blockquote::after {
+    content: close-quote;
+}
+
+section.parte1 p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+section>p:nth-of-type(1)::first-letter {
+    font-size: 2rem;   
+}
+.capitalize {
+    font-size: 2rem;   
+}
+
